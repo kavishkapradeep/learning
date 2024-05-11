@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <script src="jquery.min.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="drag">
+        <p>drag all place</p>
+    </div>
+        <div id="drag1">
+            <p>drag Y axis</p>
+        
+    </div>
+    <script> $( "#drag" ).draggable();
+        $("#drag1").draggable({axis:"y"})
+    </script>
+</body>
+</html>

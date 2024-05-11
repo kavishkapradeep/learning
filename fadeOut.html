@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>change Content</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        #text2{
+            display: none;
+        }
+
+    </style>
+    <script src="jquery.min.js"></script>
+</head>
+
+<body>
+    <p id="text1">This is fade out </p>
+    <button class="fadeout">fadeout</button>
+
+    <p id="text2">This is fade out </p>
+    <button class="fadein">fadeIn</button>
+
+    <script>
+        $(".fadeout").click(function(){
+            $("#text1").fadeOut("slow")
+        });
+
+        $(".fadein").click(function(){
+            $("#text2").fadeIn("slow");
+        });
+    </script>
+</body>
+
+</html>

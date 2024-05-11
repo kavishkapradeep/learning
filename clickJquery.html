@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Click Jquery</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        #circle{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: red;
+
+        }
+        .square{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="circle"></div>
+    <div class="square"></div>
+    <script>
+        $("div").click(function () {
+            alert("circle clicked!")
+        })
+    </script>
+    
+</body>
+</html>

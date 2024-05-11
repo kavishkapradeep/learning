@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>change Content</title>
+
+    <style>
+         #circle{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: red;
+
+        }
+    </style>
+     <script src="jquery.min.js"></script>
+</head>
+<body>
+    <div id="circle"></div>
+    <h2>This is change content example</h2>
+    <iframe src="clickJquery.html" ></iframe>
+    <script>
+        $("div").click(function () {
+            $("h2").html("go to learn change content")
+            $("iframe").attr("src","https://www.bcc.lk/");
+        });
+    </script>
+</body>
+</html>
